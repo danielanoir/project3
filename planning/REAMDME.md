@@ -1,10 +1,11 @@
-ERD:
+ERD: DAPi App
 
-Model: categories
--category name
+Model: category
+-name
 
-Model: lessons
--lesson title
--lesson teacher_name
--lesson content
--lesson image (how can they add multiple images?)
+Model: lesson
+-title
+-image_url
+-author_name
+-content
+-category_id
