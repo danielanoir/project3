@@ -9,3 +9,11 @@ MVP
 -As a user I want to be able to update lessons
 -As a user I want to be able to delete categories
 -As a user I want to be able to delete lessons
+
+SILVER
+-As a user I can create an account
+-As a user I want to be able to see my google calendar from my account. 
+
+GOLD
+-As a user I can delete my categories and lessons, but no one else can.
+-As an admin I can delete anyones categories or lessons.
