@@ -2,7 +2,7 @@
 
   (function(){
     angular
-    .module("category")
+    .module("categories")
     .controller("CategoryShowController", [
       "CategoryFactory",
       "$stateParams",
