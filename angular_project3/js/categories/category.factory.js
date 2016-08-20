@@ -9,6 +9,6 @@
     ]);
 
     function CategoryFactoryFunction($resource){
-      return $resource("http://localhost:3000/");
+      return $resource("http://localhost:3000/categories");
     }
   }());
