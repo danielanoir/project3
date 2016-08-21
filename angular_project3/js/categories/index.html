@@ -1,7 +1,10 @@
 <h1>All Categories</h1>
 
 <div data-ng-repeat="category in CategoryIndexViewModel.categories">
-  <p>{{category.name}}</p><a data-ui-sref="categoryEdit">(edit)</a>
+  <p>
+    <a data-ui-sref="categoryShow({id: category.id})">{{category.name}}</a>
+    <a data-ui-sref="categoryEdit({id: category.id})">(edit)</a>
+  </p>
 </div>
 
 <a data-ui-sref="categoryNew">(+) Add Category</a>
