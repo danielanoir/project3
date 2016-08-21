@@ -26,6 +26,12 @@
         controller: "CategoryNewController",
         controllerAs: "CategoryNewViewModel",
       })
+      .state("categoryEdit", {
+        url: "/categories/edit/:id",
+        templateUrl: "js/categories/edit.html",
+        controller: "CategoryEditController",
+        controllerAs: "CategoryEditViewModel"
+      })
       .state("categoryShow", {
         url: "/categories/:id",
         templateUrl: "js/categories/show.html",
