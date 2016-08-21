@@ -1,17 +1,21 @@
 html, body{
   height: 100%;
   background-image: url("http://img08.deviantart.net/b5aa/i/2015/140/7/c/chalkboard_by_lorelinde-d8u2phm.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-h1 {
+
+.dapi {
+  text-decoration: none;
   font-family: 'Patua One', cursive;
-  font-size: 60px;
-  display: flex;
-
+  font-size: 70px;
+  color: black;
 }
+
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'EB Garamond', serif;
 }
 
@@ -20,7 +24,7 @@ h2 {
   color: black;
   height: 30%;
   opacity: .4;
-  margin-top: -40px;
+  /*margin-top: -40px;*/
 }
 
 .scrollCats {
@@ -47,9 +51,23 @@ h2 {
   margin-top: 70px;
   border-radius: 8px;
   font-family: 'Baloo Da', cursive;
-
 }
 
+a.catText {
+  text-decoration: none;
+  color: white;
+}
+
+a.addCat {
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+  font-family: 'Baloo Da', cursive;
+}
+
+a:hover {
+  color: #E06D43;
+}
 .footer {
   background-color: #B9B5BA;
   height: 30%;
