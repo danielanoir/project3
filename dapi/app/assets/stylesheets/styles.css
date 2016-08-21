@@ -1,0 +1,9 @@
+.allCategories {
+  font-family: 'Patua One', cursive;
+  font-size: 60px;
+  display: flex;
+}
+
+body {
+  background-color: red;
+}
