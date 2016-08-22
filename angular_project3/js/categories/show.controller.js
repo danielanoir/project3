@@ -2,7 +2,7 @@
 
   (function(){
     angular
-    .module("category")
+    .module("categories")
     .controller("CategoryShowController", [
       "CategoryFactory",
       "$stateParams",
@@ -10,7 +10,9 @@
     ]);
 
     function CategoryShowControllerFunction(CategoryFactory, $stateParams){
-      this.category = CategoryFactory.get({id: $stateParams.id});
+      var vm = this;
+      vm.category = CategoryFactory.get({id: $stateParams.id});
+      console.log(vm.category);
     }
 
   }());
