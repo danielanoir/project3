@@ -1,4 +1,4 @@
-/*html, body{
+html, body{
   height: 100%;
   background-image: url("http://img08.deviantart.net/b5aa/i/2015/140/7/c/chalkboard_by_lorelinde-d8u2phm.jpg");
   background-size: 100%;
@@ -31,8 +31,8 @@ h2 {
   height: 40%;
   overflow-x: scroll;
   white-space: nowrap;
-}*/
-/*
+}
+
 .inline {
   display: inline-block;
 }
@@ -56,9 +56,9 @@ h2 {
 a.catText {
   text-decoration: none;
   color: white;
-}*/
+}
 
-/*a.addCat {
+a.addCat {
   text-decoration: none;
   font-size: 50px;
   color: black;
@@ -72,4 +72,4 @@ a:hover {
   background-color: #B9B5BA;
   height: 30%;
   opacity: .4;
-}*/
+}
