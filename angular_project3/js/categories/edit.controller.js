@@ -2,8 +2,8 @@
 
   (function(){
     angular
-    .module("categories")
-    .controller("CategoryEditController", [
+    .module( "categories" )
+    .controller( "CategoryEditController", [
       "CategoryFactory",
       "$stateParams",
       CategoryEditControllerFunction
@@ -14,7 +14,8 @@
       this.update = function(){
         this.category.$update({id: $stateParams.id});
       }
+      this.destroy = function(){
+        this.category.$delete({id: $stateParams.id});
+      }
     }
-
-
   }());

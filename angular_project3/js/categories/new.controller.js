@@ -2,18 +2,17 @@
 
   (function(){
     angular
-    .module("categories")
-    .controller("CategoryNewController", [
+    .module( "categories" )
+    .controller( "CategoryNewController", [
       "CategoryFactory",
       CategoryNewControllerFunction
     ]);
 
-    function CategoryNewControllerFunction(CategoryFactory){
+    function CategoryNewControllerFunction( CategoryFactory ){
         var vm = this;
         vm.category = new CategoryFactory();
         vm.create = function(){
           vm.category.$save();
         }
     }
-
   }());

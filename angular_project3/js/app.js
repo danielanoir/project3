@@ -27,7 +27,7 @@
         controllerAs: "CategoryNewViewModel",
       })
       .state("categoryEdit", {
-        url: "/categories/edit/:id",
+        url: "/categories/:id/edit",
         templateUrl: "js/categories/edit.html",
         controller: "CategoryEditController",
         controllerAs: "CategoryEditViewModel"
@@ -36,7 +36,7 @@
         url: "/categories/:id",
         templateUrl: "js/categories/show.html",
         controller: "CategoryShowController",
-        conrollerAs: "CategoryShowViewModel"
+        controllerAs: "CategoryShowViewModel"
       });
     }
 

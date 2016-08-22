@@ -12,5 +12,4 @@
     function CategoryShowControllerFunction(CategoryFactory, $stateParams){
       this.category = CategoryFactory.get({id: $stateParams.id});
     }
-
   }());
