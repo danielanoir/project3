@@ -1,10 +1,12 @@
-<h1>All Categories</h1>
+<!-- <h1 class="allCategories">All Categories</h1> -->
+<div id="scrollContainer" class="scrollCats">
 
-<div data-ng-repeat="category in CategoryIndexViewModel.categories">
-  <p>
-    <a data-ui-sref="categoryShow({id: category.id})">{{category.name}}</a>
-    <a data-ui-sref="categoryEdit({id: category.id})">(edit)</a>
+<div class="inline" data-ng-repeat="category in CategoryIndexViewModel.categories">
+  <p class="categories">
+    <a class="catText" data-ui-sref="categoryShow({id: category.id})">{{category.name}}</a>
+    <a class="catText" data-ui-sref="categoryEdit({id: category.id})">(edit)</a>
   </p>
 </div>
 
-<a data-ui-sref="categoryNew">(+) Add Category</a>
+</div>
+<a class="addCat" data-ui-sref="categoryNew">(+) Add Category</a>
