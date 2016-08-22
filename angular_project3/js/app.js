@@ -36,7 +36,7 @@
         url: "/categories/:id",
         templateUrl: "js/categories/show.html",
         controller: "CategoryShowController",
-        conrollerAs: "CategoryShowViewModel"
+        controllerAs: "CategoryShowViewModel"
       });
     }
 
