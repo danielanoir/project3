@@ -1,5 +1,9 @@
 <div class="showCat">
 <h2 class="show">{{CategoryShowViewModel.category.name}}</h2>
 
+<div data-ng-repeat="lesson in CategoryShowViewModel.lessons">
+  <p>{{CategoryShowViewModel.lessons.title}}</p>
+</div>
+
 <a class="editButton" data-ui-sref="categoryEdit({id: category.id})">Edit</a>
 </div>
