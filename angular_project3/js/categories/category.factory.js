@@ -24,7 +24,7 @@
     ]);
 
     function LessonFactoryFunction($resource){
-      return $resource("http://localhost:3000/lessons/:id", {}, {
+      return $resource("http://localhost:3000/categories/:id/lessons/:id", {}, {
         update: { method: "PUT" }
       });
     }
