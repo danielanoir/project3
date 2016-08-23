@@ -21,5 +21,8 @@ categories = Category.create([
 
 
     data = JSON.parse(File.read("db/categories_data.json"))
-      Category.destroy_all
-      Category.create!(data)
+    nestdata = JSON.parse(File.read("db/lessons_data.json"))
+    Category.destroy_all
+    Lesson.destroy_all
+    Category.create!(data)
+    Lesson.create!(nestdata)
