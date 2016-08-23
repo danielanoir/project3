@@ -1,8 +1,7 @@
 "use strict";
 
   (function(){
-    angular
-    .module("dapi", [
+    angular.module("dapi", [
       "ui.router",
       "categories"
     ])

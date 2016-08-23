@@ -14,3 +14,18 @@
       });
     }
   }());
+
+  (function(){
+    angular
+    .module("categories")
+    .factory("LessonFactory", [
+      "$resource",
+      LessonFactoryFunction
+    ]);
+
+    function LessonFactoryFunction($resource){
+      return $resource("http://localhost:3000/lessons/:id", {}, {
+        update: { method: "PUT" }
+      });
+    }
+  }());
