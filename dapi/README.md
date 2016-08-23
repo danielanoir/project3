@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Issues:
+- Reroute when updated   
+- Flash notices 
+
+Ideas:
+- Have a set number of things people can learn without signing up
+- Allow adding categories once signed in
+- Can add lessons without signing in
