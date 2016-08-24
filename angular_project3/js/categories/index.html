@@ -1,16 +1,12 @@
-<a class="addCat" data-ui-sref="categoryNew">(+) Add Category</a>
-
 <div class="container">
 <div data-ng-repeat="category in CategoryIndexViewModel.categories">
-  <p class="gridChild">
-    <figure class="imghvr-zoom-out-down">
-        <!-- <img src="http://www.yedraw.com/transport/plane-3.jpg"> -->
-        <figcaption>
-            <a class="catText" data-ui-sref="categoryShow({id: category.id})">{{category.name}}</a>
-            <a class="catText" data-ui-sref="categoryEdit({id: category.id})">(edit)</a>
-        </figcaption>
+    <figure class="imghvr-fade" style="background-color:white;">
+      <img class="image" data-ui-sref="categoryShow({id: category.id})" src="{{category.image_url}}"></img>
+      <figcaption>
+        <a class="catText" data-ui-sref="categoryShow({id: category.id})">{{category.name}}</a>
+        <a class="catEdit" data-ui-sref="categoryEdit({id: category.id})">(edit)</a>
+      </figcaption>
     </figure>
-  </p>
 </div>
 
 <div class="footer">
