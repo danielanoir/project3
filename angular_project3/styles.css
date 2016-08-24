@@ -17,13 +17,6 @@ body {
   padding: 10px;
 }
 
-
-.subTitle {
-  font-size: 40px;
-  font-family: 'Lato', sans-serif;
-  display: inline-block;
-}
-
 .header {
   background-color: #ED8A42;
   width: 100%;
@@ -43,7 +36,6 @@ a.addCat {
   color: white;
   font-family: 'Lato', sans-serif;
   display: block;
-  /*padding: 20px;*/
 }
 
 .container {
@@ -67,16 +59,39 @@ a.addCat {
 a.catText {
   text-decoration: none;
   color: black;
-  font-size: 30px;
-  padding-top: 10px;
+  font-size: 40px;
+  padding-top: 80px;
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
 
 a:hover {
-  color: #E06D43;
+  color: black;
 }
 
-.catHeading {
-  margin-top: 300px;
+.newCat, .editCat, .showCat{
+  text-align: center;
+  margin-top: 250px;
+  font-family: 'Lato', sans-serif;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.input {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.button, .deleteButton {
+  height: 50px;
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  margin: 10px;
+  background-color: #C95E10;
+  color: white;
 }
