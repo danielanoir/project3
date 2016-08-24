@@ -23,7 +23,7 @@
         url: "/categories/new",
         templateUrl: "js/categories/new.html",
         controller: "CategoryNewController",
-        controllerAs: "CategoryNewViewModel",
+        controllerAs: "CategoryNewViewModel"
       })
       .state("categoryEdit", {
         url: "/categories/edit/:id",
