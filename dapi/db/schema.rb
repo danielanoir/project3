@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 20160824144858) do
 
   create_table "categories", force: :cascade do |t|
     t.string   "name"
-    t.string   "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string   "image_url"
