@@ -3,7 +3,7 @@
 <h2 class="show">{{CategoryShowViewModel.category.name}}</h2>
 
 <div data-ng-repeat="lessons in CategoryShowViewModel.lessons">
-  <p>{{lessons.title}}</p>
+  <a ng-href={{lessons.image_url}}>{{lessons.title}}</a>
 </div>
 
 </div>

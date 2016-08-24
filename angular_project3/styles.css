@@ -63,10 +63,11 @@ a.addCat {
 }
 
 .image {
-  height: 300px;
-  min-width: 300px;
+  height: 200px;
+  width: 200px;
+  min-width: : 200px;
+  min-height: 200px;
   background-color: white;
-  width: 300px;
   border: solid black;
   padding: 10px;
   margin: 10px;
@@ -76,7 +77,7 @@ a.catText {
   text-decoration: none;
   color: black;
   font-size: 40px;
-  padding-top: 80px;
+  padding-top: 40px;
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
