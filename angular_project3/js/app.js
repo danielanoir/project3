@@ -31,6 +31,12 @@
         controller: "CategoryEditController",
         controllerAs: "CategoryEditViewModel"
       })
+      .state("categoryList", {
+        url: "/categories/list",
+        templateUrl: "js/categories/list.html",
+        controller: "CategoryIndexController",
+        controllerAs: "CategoryListViewModel"
+      })
       .state("categoryShow", {
         url: "/categories/:id",
         templateUrl: "js/categories/show.html",
