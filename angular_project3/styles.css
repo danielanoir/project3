@@ -35,7 +35,7 @@ a.addCat {
   font-size: 30px;
   color: white;
   font-family: 'Lato', sans-serif;
-  display: block;
+  display: inline-block;
 }
 
 .container {
@@ -46,6 +46,22 @@ a.addCat {
   align-content: flex-start;
   justify-content: flex-start;
 }
+
+/*for the list.html page*/
+.container2 {
+  top: 220px;
+  bottom:300px;
+  position: absolute;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.editpage{
+  top: 300px;
+}
+
 .image {
   height: 300px;
   min-width: 300px;
