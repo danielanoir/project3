@@ -2,7 +2,7 @@
 <h2 class="show">{{CategoryShowViewModel.category.name}}</h2>
 
 <div data-ng-repeat="lessons in CategoryShowViewModel.lessons">
-  <p>{{lessons.title}}</p>
+  <p data-ng-sref="lessonShow">{{lessons.title}}</p>
 </div>
 
 <a class="button" data-ui-sref="categoryEdit({id: category.id})">Edit</a>

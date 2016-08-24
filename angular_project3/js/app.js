@@ -36,6 +36,11 @@
         templateUrl: "js/categories/show.html",
         controller: "CategoryShowController",
         controllerAs: "CategoryShowViewModel"
+      }).state("lessonShow", {
+        url: "/categories/:id/lessons/:id/show",
+        templateUrl: "js/categories/lesson_show.html",
+        controller: "LessonShowController",
+        controllerAs: "LessonShowViewModel"
       });
     }
 
