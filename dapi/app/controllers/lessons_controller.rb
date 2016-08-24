@@ -1,9 +1,10 @@
 class LessonsController < ApplicationController
-  before_action :set_lesson, only: [:show, :update, :destroy]
+  before_action :set_category
+  # , only: [:show, :update, :destroy]
 
   # GET /lessons
   def index
-    @lessons = Lesson.all
+    @lessons = @category.lessons
 
     render json: @lessons
   end
@@ -40,8 +41,8 @@ class LessonsController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_lesson
-      @lesson = Lesson.find(params[:id])
+    def set_category
+      @category = Category.find(params[:category_id])
     end
 
     # Only allow a trusted parameter "white list" through.
