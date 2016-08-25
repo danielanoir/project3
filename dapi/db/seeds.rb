@@ -132,17 +132,21 @@ image_url: "http://rushmmxiii.weebly.com/uploads/1/2/6/9/12694403/s8392417347690
 )
 DIY = Category.create(
 name:"DIY",
-image_url: "http://patentimages.storage.googleapis.com/USD572969S1/USD0572969-20080715-D00000.png"
+image_url: "https://s-media-cache-ak0.pinimg.com/564x/75/b3/75/75b375868f3d01e23c73ca01ea132b69.jpg"
 )
 Building = Category.create(
 name:"Building",
-image_url: "http://patentimages.storage.googleapis.com/USD572969S1/USD0572969-20080715-D00000.png"
+image_url: "https://s-media-cache-ak0.pinimg.com/736x/8d/d5/77/8dd57700a9f98badc82e38408343c2b5.jpg"
 )
 Home = Category.create(
 name:"Home Improvements",
-image_url: "http://patentimages.storage.googleapis.com/USD572969S1/USD0572969-20080715-D00000.png"
+image_url: "https://cdn.vectorstock.com/i/composite/19,06/house-cartoon-vector-381906.jpg"
 )
 Gardening = Category.create(
 name:"Gardening",
-image_url: "http://patentimages.storage.googleapis.com/USD572969S1/USD0572969-20080715-D00000.png"
+image_url: "https://www.colourbox.com/preview/6918944-design-tree.jpg"
+)
+Science = Category.create(
+name:"Science",
+image_url: "http://i.istockimg.com/file_thumbview_approve/63094973/6/stock-illustration-63094973-laboratory-flasks-chemistry-symbol-drawing.jpg"
 )
