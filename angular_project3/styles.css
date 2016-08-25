@@ -63,10 +63,10 @@ a.addCat {
 }
 
 .image {
+  min-width: 200px;
+  min-height: 200px;
   height: 200px;
   width: 200px;
-  min-width: : 200px;
-  min-height: 200px;
   background-color: white;
   border: solid black;
   padding: 10px;

@@ -13,7 +13,7 @@ Lesson.destroy_all
 
   flying = Category.create(
   name:"Flying Planes",
-  image_url: "https://s-media-cache-ak0.pinimg.com/564x/66/28/6d/66286d5337852b7eba10b4edc13d7773.jpg"
+  image_url: "http://www.drawinghowtodraw.com/stepbystepdrawinglessons/wp-content/uploads/2011/10/step-107.png"
   )
 
     fly101 = Lesson.create(
@@ -42,7 +42,7 @@ Lesson.destroy_all
 
   programming = Category.create(
   name:"Programming",
-  image_url: "https://s-media-cache-ak0.pinimg.com/564x/66/28/6d/66286d5337852b7eba10b4edc13d7773.jpg"
+  image_url: "http://urban62.com/wp-content/uploads/2014/06/computer.jpg"
   )
 
     js = Lesson.create(
@@ -70,7 +70,7 @@ Lesson.destroy_all
 
   parenting = Category.create(
   name:"Parenting",
-  image_url: "https://s-media-cache-ak0.pinimg.com/564x/66/28/6d/66286d5337852b7eba10b4edc13d7773.jpg"
+  image_url: "https://s-media-cache-ak0.pinimg.com/564x/79/30/7a/79307a2f00171994054f9cdc49de8e8f.jpg"
   )
 
     poop = Lesson.create(
@@ -99,7 +99,7 @@ Lesson.destroy_all
 
   cooking = Category.create(
   name:"Cooking",
-  image_url: "https://s-media-cache-ak0.pinimg.com/564x/66/28/6d/66286d5337852b7eba10b4edc13d7773.jpg"
+  image_url: "http://patentimages.storage.googleapis.com/USD572969S1/USD0572969-20080715-D00000.png"
   )
 
     flambe = Lesson.create(
