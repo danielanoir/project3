@@ -48,17 +48,6 @@ a.addCat {
   justify-content: flex-start;
 }
 
-/*for the list.html page*/
-.container2 {
-  top: 220px;
-  bottom:300px;
-  position: absolute;
-  display: flex;
-  align-content: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-
 .editpage{
   top: 300px;
 }
@@ -116,16 +105,17 @@ a:hover {
 
 .editAllCats {
   margin-top: 250px;
+  width: 100%;
   font-family: 'Lato', sans-serif;
-  padding: 0px;
   font-size: 40px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+  /*flex-wrap: wrap;
+  justify-content: center;*/
+  background-color: white;
 }
 .nameAndEdit {
-  background-color: #F0EAE4;
-  border: outset #D9D0C5;
   margin: 20px;
   padding: 5px;
   }
