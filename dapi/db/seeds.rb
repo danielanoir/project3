@@ -125,3 +125,28 @@ Lesson.destroy_all
     content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     category_id:6
     )
+
+Peace = Category.create(
+name:"Peace",
+image_url: "http://rushmmxiii.weebly.com/uploads/1/2/6/9/12694403/s839241734769022623_p4_i1_w836.png"
+)
+DIY = Category.create(
+name:"DIY",
+image_url: "https://s-media-cache-ak0.pinimg.com/564x/75/b3/75/75b375868f3d01e23c73ca01ea132b69.jpg"
+)
+Building = Category.create(
+name:"Building",
+image_url: "https://s-media-cache-ak0.pinimg.com/736x/8d/d5/77/8dd57700a9f98badc82e38408343c2b5.jpg"
+)
+Home = Category.create(
+name:"Home Improvements",
+image_url: "https://cdn.vectorstock.com/i/composite/19,06/house-cartoon-vector-381906.jpg"
+)
+Gardening = Category.create(
+name:"Gardening",
+image_url: "https://www.colourbox.com/preview/6918944-design-tree.jpg"
+)
+Science = Category.create(
+name:"Science",
+image_url: "http://i.istockimg.com/file_thumbview_approve/63094973/6/stock-illustration-63094973-laboratory-flasks-chemistry-symbol-drawing.jpg"
+)
