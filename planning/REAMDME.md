@@ -1,11 +1,8 @@
-ERD: DAPi App
+This app is designed to be used as a teaching app. Users can add categories and view lessons.
 
-Model: category
--name
+Technologies Used:
+Angular, Rails, CSS, JavaScript, JQuery, HTML, Heroku
 
-Model: lesson
--title
--image_url
--author_name
--content
--category_id
+Next steps:
+Allow users to create, update, read and delete lessons.
+Allow users to add images to categories. 
