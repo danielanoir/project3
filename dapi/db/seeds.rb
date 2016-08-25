@@ -125,3 +125,24 @@ Lesson.destroy_all
     content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     category_id:6
     )
+
+Peace = Category.create(
+name:"Peace",
+image_url: "http://rushmmxiii.weebly.com/uploads/1/2/6/9/12694403/s839241734769022623_p4_i1_w836.png"
+)
+DIY = Category.create(
+name:"DIY",
+image_url: "http://patentimages.storage.googleapis.com/USD572969S1/USD0572969-20080715-D00000.png"
+)
+Building = Category.create(
+name:"Building",
+image_url: "http://patentimages.storage.googleapis.com/USD572969S1/USD0572969-20080715-D00000.png"
+)
+Home = Category.create(
+name:"Home Improvements",
+image_url: "http://patentimages.storage.googleapis.com/USD572969S1/USD0572969-20080715-D00000.png"
+)
+Gardening = Category.create(
+name:"Gardening",
+image_url: "http://patentimages.storage.googleapis.com/USD572969S1/USD0572969-20080715-D00000.png"
+)
