@@ -1,6 +1,8 @@
-<div class="container2">
+<div class="editAllCats">
   <div data-ng-repeat="category in CategoryListViewModel.categories">
-    <p>{{category.name}}</p>
-    <a class="catEdit" data-ui-sref="categoryEdit({id: category.id})">(edit)</a>
+  <div class="nameAndEdit">
+    <p class="catName">{{category.name}}</p>
+    <a class="edit" data-ui-sref="categoryEdit({id: category.id})">edit</a>
+  </div>
   </div>
 </div>

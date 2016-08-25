@@ -14,7 +14,8 @@ body {
   font-size: 70px;
   color: white;
   display: inline-block;
-  padding: 10px;
+  padding: 0px;
+  margin-top: 0px;
 }
 
 .header {
@@ -27,7 +28,7 @@ body {
   border: 0;
   left: 0;
   right: 0;
-  border-bottom: solid 9px #C95E10;
+  border-bottom: solid 20px #C95E10;
 }
 
 a.addCat {
@@ -86,7 +87,7 @@ a:hover {
   color: black;
 }
 
-.newCat, .editCat, .showCat{
+.newCat, .editCat, .showCat {
   text-align: center;
   margin-top: 250px;
   font-family: 'Lato', sans-serif;
@@ -111,4 +112,34 @@ a:hover {
   margin: 10px;
   background-color: #C95E10;
   color: white;
+}
+
+.editAllCats {
+  margin-top: 250px;
+  font-family: 'Lato', sans-serif;
+  padding: 0px;
+  font-size: 40px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nameAndEdit {
+  background-color: #F0EAE4;
+  border: outset #D9D0C5;
+  margin: 20px;
+  padding: 5px;
+  }
+.edit {
+  text-decoration: none;
+  color: #7D3024;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+}
+.catName {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  padding: 0px;
+  margin: 10px;
 }
