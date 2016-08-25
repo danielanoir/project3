@@ -61,15 +61,20 @@ a.addCat {
   border: solid black;
   padding: 10px;
   margin: 10px;
+  border-radius: 10px;
 }
 
 a.catText {
   text-decoration: none;
+  border: solid black;
   color: black;
   font-size: 40px;
-  padding-top: 40px;
-  font-family: 'Lato', sans-serif;
+  padding: 5px;
+  word-wrap: break-word;
+  font-family: 'Pacifico', cursive;
   text-align: center;
+  border-radius: 10px;
+
 }
 
 a:hover {
@@ -105,17 +110,16 @@ a:hover {
 
 .editAllCats {
   margin-top: 250px;
-  width: 100%;
   font-family: 'Lato', sans-serif;
+  padding: 0px;
   font-size: 40px;
-  display: flex;
-  flex-direction: column;
-  max-height: 300px;
-  /*flex-wrap: wrap;
-  justify-content: center;*/
-  background-color: white;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .nameAndEdit {
+  background-color: white;
+  border: outset #D9D0C5;
   margin: 20px;
   padding: 5px;
   }
